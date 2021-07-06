@@ -1,0 +1,582 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:orientation="vertical"
+
+    android:layout_height = "match_parent"
+    tools:context = ".AddNextHotel">
+
+
+  <LinearLayout
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+    android:orientation="vertical">
+
+
+
+
+
+
+
+
+      <LinearLayout
+          android:layout_width = "match_parent"
+          android:layout_height = "match_parent"
+          android:orientation = "horizontal"
+          android:visibility = "visible">
+            <TextView
+                android:id = "@+id/textView2"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:gravity = "center"
+                android:text = "اسم الغرف/"
+                android:textColor = "#000"
+                android:textSize = "20sp"
+                android:textStyle = "bold" /><Spinner
+          android:id = "@+id/spinner_name_room"
+          android:layout_width = "match_parent"
+
+          android:layout_height = "wrap_content" />
+      </LinearLayout>
+
+        <View
+            android:id = "@+id/view2"
+            android:layout_width = "match_parent"
+            android:layout_height = "35dp" />
+  <LinearLayout
+      android:layout_width = "match_parent"
+      android:layout_height = "match_parent"
+      android:orientation = "horizontal"
+      android:visibility = "visible">
+            <TextView
+                android:id = "@+id/textView3"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:gravity = "center"
+                android:text = " نوع الغرفة/"
+                android:textColor = "#000"
+                android:textSize = "20sp"
+                android:textStyle = "bold" /><Spinner
+      android:id = "@+id/spinner_type_room"
+
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content" />
+  </LinearLayout>
+
+
+       <View
+           android:id = "@+id/view3"
+           android:layout_width = "match_parent"
+           android:layout_height = "35dp" />
+
+
+
+
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:orientation = "horizontal"
+        android:visibility = "visible">
+            <TextView
+                android:id = "@+id/textView13"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:gravity = "center"
+                android:text = " اسم السرير/"
+                android:textColor = "#000"
+                android:textSize = "20sp"
+                android:textStyle = "bold" /><Spinner
+        android:id = "@+id/spinner_name_bad"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content" />
+    </LinearLayout>
+
+       <View
+           android:id = "@+id/view4"
+           android:layout_width = "match_parent"
+           android:layout_height = "35dp" />
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:orientation = "horizontal"
+        android:visibility = "visible">
+            <TextView
+                android:id = "@+id/textView14"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:gravity = "center"
+                android:text = " نوع السرير/"
+                android:textColor = "#000"
+                android:textSize = "20sp" /><Spinner
+        android:id = "@+id/spinner_type_bad"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content" />
+
+    </LinearLayout>
+
+       <View
+           android:id = "@+id/view5"
+           android:layout_width = "match_parent"
+           android:layout_height = "35dp" />
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "match_parent"
+        android:orientation = "horizontal"
+        android:visibility = "visible">
+            <TextView
+                android:id = "@+id/textView10"
+                android:layout_width = "wrap_content"
+                android:layout_height = "wrap_content"
+                android:layout_gravity = "center"
+                android:text = "سعر الغرفة"
+                android:textColor = "#000"
+                android:textSize = "20sp"
+                android:textStyle = "bold" />
+        <EditText
+            android:id = "@+id/price_room"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_gravity = "center"
+            android:ems = "5"
+            android:gravity = "center"
+            android:inputType = "number"
+            android:text = "100"
+            android:textColor = "#000"
+            android:textSize = "20sp" />
+
+        <TextView
+            android:id = "@+id/textView9"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:layout_gravity = "center"
+            android:text = "$"
+            android:textColor = "#438344"
+            android:textSize = "20sp" />
+        </LinearLayout>
+       <View
+           android:layout_width = "match_parent"
+           android:layout_height = "35dp" />
+      <TextView
+        android:id = "@+id/textView15"
+        android:layout_width = "match_parent"
+          android:textStyle="bold"
+        android:layout_height = "wrap_content"
+        android:gravity = "center"
+        android:text = "كم غرفة؟"
+        android:textColor = "#000"
+          android:textSize = "20sp"/><RadioGroup
+      android:layout_width = "match_parent"
+      android:layout_height = "match_parent"
+      android:visibility = "visible">
+      <RadioButton
+          android:id = "@+id/radioButton7"
+          android:layout_width = "match_parent"
+          android:layout_height = "wrap_content"
+          android:onClick = "radio1"
+          android:text = "1"
+          android:textSize = "20sp" /><RadioButton
+      android:id = "@+id/radioButton8"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:onClick = "radio2"
+      android:text = "2"
+      android:textSize = "20sp" /><RadioButton
+      android:id = "@+id/radioButton9"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:onClick = "radio3"
+      android:text = "3"
+      android:textSize = "20sp" /><RadioButton
+      android:id = "@+id/radioButton10"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:onClick = "radio4"
+      android:text = "4"
+      android:textSize = "20sp" /></RadioGroup>
+
+       <View
+           android:layout_width = "match_parent"
+           android:layout_height = "35dp" />
+
+      <TextView
+      android:id = "@+id/textView4"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+          android:textStyle="bold"
+      android:gravity="center"
+      android:textColor="#000"
+          android:textSize = "20sp"
+      android:text = "هل تقبل الاطفال؟" />
+    <RadioGroup
+        android:id = "@+id/group_kids"
+        android:layout_width = "match_parent"
+
+        android:layout_height = "wrap_content"
+        android:visibility = "visible">
+    <RadioButton
+        android:id = "@+id/radioButton"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:onClick = "radio_yes_kids"
+        android:text = "نعم"
+        android:textSize = "20sp" /><RadioButton
+        android:id = "@+id/radioButton2"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:onClick = "radio_no_kids"
+        android:text = "لا"
+        android:textSize = "20sp" /></RadioGroup>
+
+
+       <View
+           android:layout_width = "match_parent"
+           android:layout_height = "35dp" />
+
+
+  <TextView
+    android:id = "@+id/textView5"
+    android:layout_width = "match_parent"
+    android:gravity="center"
+    android:textColor="#000"
+      android:textStyle="bold"
+      android:textSize = "20sp"
+    android:layout_height = "wrap_content"
+    android:text = "هل تقبل الحيوانات؟" /><RadioGroup
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:visibility = "visible"><RadioButton
+      android:id = "@+id/radioButton3"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:onClick = "radio_yes_animals"
+      android:text = "نعم"
+      android:textSize = "20sp" />
+    <RadioButton
+        android:id = "@+id/radioButton4"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:onClick = "radio_no_animals"
+        android:text = "لا"
+        android:textSize = "20sp" /></RadioGroup>
+
+       <View
+           android:layout_width = "match_parent"
+           android:layout_height = "35dp" />
+    <TextView
+    android:id = "@+id/textView6"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:gravity="center"
+        android:textStyle="bold"
+    android:textColor="#000"
+        android:textSize = "20sp"
+    android:text = "هل تحتوي على فطور؟" />
+      <RadioGroup
+          android:layout_width = "match_parent"
+          android:layout_height = "wrap_content"
+          android:visibility = "visible">
+    <RadioButton
+        android:id = "@+id/radioButton5"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:onClick = "radio_yes_breakfast"
+        android:text = "نعم"
+        android:textSize = "20sp" />
+    <RadioButton
+        android:id = "@+id/radioButton6"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:onClick = "radio_no_breakfast"
+        android:text = "لا"
+        android:textSize = "20sp" />
+
+      </RadioGroup>
+
+
+       <View
+           android:layout_width = "match_parent"
+           android:layout_height = "35dp" />
+       <TextView
+           android:id = "@+id/textView11"
+           android:layout_width = "match_parent"
+           android:layout_height = "wrap_content"
+           android:gravity="center"
+           android:textColor="#000"
+           android:textStyle="bold"
+           android:textSize = "20sp"
+           android:text = "كم عدد الضيوف؟" />
+      <RadioGroup
+          android:layout_width = "match_parent"
+          android:layout_height = "wrap_content"
+          android:visibility = "visible">
+    <RadioButton
+
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:onClick = "radio_one_guest"
+        android:text = "1"
+        android:textSize = "20sp" />
+    <RadioButton
+
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:onClick = "radio_tow_guest"
+        android:text = "2"
+        android:textSize = "20sp" />
+
+
+
+            <RadioButton
+
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:onClick = "radio_three_guest"
+                android:text = "3"
+                android:textSize = "20sp" />
+
+
+            <RadioButton
+
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:onClick = "radio_four_guest"
+                android:text = "4"
+                android:textSize = "20sp" />
+
+
+
+
+      </RadioGroup>
+
+
+
+
+
+
+
+
+
+
+
+
+ <View
+     android:layout_width = "match_parent"
+     android:layout_height = "35dp" />
+
+
+
+
+  <LinearLayout
+      android:layout_width = "match_parent"
+      android:layout_height = "match_parent"
+      android:background = "@drawable/noty"
+      android:orientation = "vertical"
+      android:visibility = "visible">
+
+        <TextView
+            android:id = "@+id/textView7"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:gravity = "center"
+            android:text = "اختر المرافق التي تتوفر في فندقك"
+            android:textColor = "#000"
+            android:textSize = "20sp"
+            android:textStyle = "bold" />
+
+
+  <CheckBox
+      android:id = "@+id/checkBox"
+      android:layout_width = "wrap_content"
+      android:layout_height = "wrap_content"
+      android:onClick = "cheackBox1"
+      android:text = "موقف سيارات"
+      android:textSize = "20sp"
+      android:textStyle = "italic" /><CheckBox
+      android:id = "@+id/checkBox3"
+      android:layout_width = "wrap_content"
+      android:layout_height = "wrap_content"
+      android:onClick = "cheackBox2"
+      android:text = "مسبح"
+      android:textSize = "20sp"
+      android:textStyle = "italic" /><CheckBox
+      android:id = "@+id/checkBox4"
+      android:layout_width = "wrap_content"
+      android:layout_height = "wrap_content"
+      android:onClick = "cheackBox3"
+      android:text = "مطعم"
+      android:textSize = "20sp"
+      android:textStyle = "italic" />
+        <CheckBox
+            android:id = "@+id/checkBox2"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:onClick = "cheackBox4"
+            android:text = "سوق"
+            android:textSize = "20sp" /><CheckBox
+      android:id = "@+id/checkBox5"
+      android:layout_width = "wrap_content"
+      android:layout_height = "wrap_content"
+      android:onClick = "cheackBox5"
+      android:text = "العاب"
+      android:textSize = "20sp" /><CheckBox
+      android:id = "@+id/checkBox6"
+      android:layout_width = "wrap_content"
+      android:layout_height = "wrap_content"
+      android:onClick = "cheackBox6"
+      android:text = "تزلج"
+      android:textSize = "20sp" />
+
+
+  </LinearLayout>
+
+       <View
+           android:layout_width = "match_parent"
+           android:layout_height = "35dp" />
+      <LinearLayout
+          android:layout_width = "match_parent"
+          android:layout_height = "match_parent"
+          android:background = "@drawable/noty"
+          android:orientation = "vertical"
+          android:visibility = "visible">
+
+     <TextView
+         android:id = "@+id/textView8"
+         android:layout_width = "match_parent"
+         android:layout_height = "wrap_content"
+         android:gravity = "center"
+         android:text = "اختر وسائل الراحة للغرفة"
+         android:textColor = "#000"
+         android:textSize = "20sp"
+         android:textStyle = "bold" />
+
+
+
+
+
+
+
+    <CheckBox
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:onClick = "cheackBox7"
+        android:text = "سخان"
+        android:textSize = "20sp"
+        android:textStyle = "italic" /><CheckBox
+          android:id = "@+id/checkBox9"
+          android:layout_width = "wrap_content"
+          android:layout_height = "wrap_content"
+          android:onClick = "cheackBox8"
+          android:text = "ساونة"
+          android:textSize = "20sp"
+          android:textStyle = "italic" /><CheckBox
+          android:id = "@+id/checkBox10"
+          android:layout_width = "wrap_content"
+          android:layout_height = "wrap_content"
+          android:onClick = "cheackBox9"
+          android:text = "تكييف"
+          android:textSize = "20sp"
+          android:textStyle = "italic" />
+
+
+
+          <CheckBox
+              android:id = "@+id/checkBox8"
+              android:layout_width = "wrap_content"
+              android:layout_height = "wrap_content"
+              android:onClick = "cheackBox10"
+              android:text = "شاشة مسطحة"
+              android:textSize = "20sp" /><CheckBox
+          android:id = "@+id/checkBox11"
+          android:layout_width = "wrap_content"
+          android:layout_height = "wrap_content"
+          android:onClick = "cheackBox11"
+          android:text = "حمام غربي"
+          android:textSize = "20sp"
+          android:textStyle = "italic" /><CheckBox
+          android:id = "@+id/checkBox12"
+          android:layout_width = "wrap_content"
+          android:layout_height = "wrap_content"
+          android:onClick = "cheackBox12"
+          android:text = "بلي ستيشن"
+          android:textSize = "20sp"
+          android:textStyle = "italic" />
+    </LinearLayout>
+
+
+
+      <androidx.cardview.widget.CardView
+          android:layout_width = "match_parent"
+          android:layout_height = "wrap_content"
+          android:layout_margin="10dp"
+          android:elevation="30dp">
+
+
+
+      <LinearLayout
+          android:layout_width = "match_parent"
+          android:layout_height = "wrap_content"
+          android:orientation="vertical">
+
+
+        <TextView
+            android:id = "@+id/textView48"
+            android:layout_width = "match_parent"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_height = "wrap_content"
+            android:text = "اضف الصور" />
+
+           <View
+               android:layout_width = "match_parent"
+               android:layout_height = "35dp" />
+
+          '<ImageView
+            android:id = "@+id/imageView_room1"
+            android:layout_width = "match_parent"
+            tools:srcCompat = "@drawable/ic_photo24"
+            android:layout_gravity="center"
+            android:layout_height = "wrap_content" />
+           <View
+               android:layout_width = "match_parent"
+               android:layout_height = "35dp" />
+    <ImageView
+        android:id = "@+id/imageView_room2"
+        android:layout_width = "match_parent"
+        tools:srcCompat = "@drawable/ic_photo24"
+        android:layout_gravity="center"
+        android:layout_height = "wrap_content" />
+           <View
+               android:layout_width = "match_parent"
+               android:layout_height = "35dp" />
+    <ImageView
+        android:id = "@+id/imageView_room3"
+        android:layout_width = "match_parent"
+        android:layout_gravity="center"
+        android:layout_height = "wrap_content"
+        android:src="@drawable/ic_photo24"
+        />
+
+       </LinearLayout>
+
+       </androidx.cardview.widget.CardView>
+
+       <View
+           android:layout_width = "match_parent"
+           android:layout_height = "35dp" />
+       <Button
+      android:id = "@+id/button5"
+      android:layout_width = "match_parent"
+      android:onClick="save"
+      android:layout_height = "wrap_content"
+      android:text = "حفظ" />
+
+
+
+
+    </LinearLayout>
+</ScrollView>

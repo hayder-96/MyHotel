@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:background="#999EBC"
+    android:orientation="vertical"
+    tools:context = ".User.MainActivityUser">
+
+ <LinearLayout
+     android:layout_width = "match_parent"
+     android:layout_height = "wrap_content"
+     android:layout_centerInParent="true"
+     android:orientation = "vertical">
+          <TextView
+                android:id = "@+id/textView19"
+                android:layout_width = "match_parent"
+                android:layout_height = "wrap_content"
+                android:gravity = "center"
+                android:text = "ادخل الدولة و المدينة"
+                android:textColor = "#fff"
+                android:textSize = "15sp" />
+
+   <EditText
+       android:id = "@+id/edit_country"
+       android:layout_width = "match_parent"
+       android:layout_height = "wrap_content"
+       android:ems = "10"
+       android:gravity = "center"
+       android:hint = "الدولة"
+       android:background="#fff"
+       android:textColor = "#000"
+       android:textSize = "15sp"
+       android:visibility = "visible" />
+   <View
+       android:id = "@+id/view11"
+       android:layout_width = "match_parent"
+       android:layout_height = "25dp" />
+     <EditText
+       android:id = "@+id/edit_city"
+       android:layout_width = "match_parent"
+       android:layout_height = "wrap_content"
+       android:ems = "10"
+       android:gravity = "center"
+       android:hint = "المدينة"
+       android:background="#fff"
+       android:textColor = "#000"
+       android:textSize = "15sp"
+       android:visibility = "visible" /><View
+     android:id = "@+id/view47"
+     android:layout_width = "match_parent"
+     android:layout_height = "25dp" /><Button
+     android:id = "@+id/button10"
+     android:layout_width = "match_parent"
+     android:layout_height = "wrap_content"
+     android:textSize="15sp"
+     android:onClick = "search"
+     android:text = "بحث" /></LinearLayout>
+
+
+
+</RelativeLayout>

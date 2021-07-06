@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+     android:background="#EDE8E8"
+    android:orientation="vertical"
+    tools:context = ".User.LoginActivityUser">
+
+  <androidx.cardview.widget.CardView
+      android:layout_width = "match_parent"
+      android:layout_margin="10dp"
+      android:elevation="20dp"
+      android:layout_height = "wrap_content" ><LinearLayout
+      android:layout_width = "match_parent"
+      android:layout_height = "match_parent"
+      android:orientation = "vertical">
+            <View
+                android:id = "@+id/view7"
+                android:layout_width = "match_parent"
+                android:layout_height = "10dp" /><EditText
+      android:id = "@+id/edit_email_login_user"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:gravity = "center"
+      android:hint = "البريد الالكتروني" /><View
+      android:id = "@+id/view22"
+      android:layout_width = "match_parent"
+      android:layout_height = "10dp" /><EditText
+      android:id = "@+id/edit_password_login_user"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:gravity = "center"
+      android:hint = "الرمز السري"
+      android:inputType = "textPassword" /><View
+      android:id = "@+id/view28"
+      android:layout_width = "match_parent"
+      android:layout_height = "20dp" /><Button
+      android:id = "@+id/button"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:onClick = "Login"
+      android:text = "Login" /><View
+      android:id = "@+id/view34"
+      android:layout_width = "match_parent"
+      android:layout_height = "20dp" /><Button
+      android:id = "@+id/button2"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:onClick = "Registerr"
+      android:text = "Register" /><View
+      android:layout_width = "match_parent"
+      android:layout_height = "20dp" /><com.facebook.login.widget.LoginButton
+      android:id = "@+id/login_button"
+      android:layout_width = "wrap_content"
+      android:layout_height = "0dp"
+      android:layout_gravity = "center_horizontal"
+      android:layout_weight = "0.70" /></LinearLayout></androidx.cardview.widget.CardView>
+
+
+
+
+
+
+  </LinearLayout>

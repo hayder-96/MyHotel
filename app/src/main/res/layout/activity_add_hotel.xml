@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    tools:context = ".AddHotel">
+
+  <LinearLayout
+      android:layout_width = "match_parent"
+      android:layout_height = "match_parent"
+          android:layout_margin="5dp"
+      android:background="@drawable/noty"
+      android:orientation = "vertical">
+            <View
+                android:id = "@+id/view24"
+                android:layout_width = "match_parent"
+                android:layout_height = "35dp" />
+      <EditText
+      android:id = "@+id/text_name_hotel"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+          android:textColorHint="#000"
+      android:gravity = "center"
+      android:hint = "اسم الفندق"
+      android:textColor = "#000"
+      android:textSize = "20sp" />
+      <View
+          android:layout_width = "match_parent"
+          android:layout_height = "35dp" /><RatingBar
+      android:id = "@+id/ratingBar"
+      android:layout_width = "wrap_content"
+      android:layout_height = "wrap_content"
+      android:layout_gravity = "center"
+      android:numStars = "5"
+      android:stepSize = "1"
+      android:theme = "@style/RatingBar" /><View
+      android:id = "@+id/view23"
+      android:layout_width = "match_parent"
+      android:layout_height = "35dp" /><TextView
+      android:id = "@+id/textView"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:gravity = "center"
+      android:text = "درجة الفندق"
+      android:textColor = "#000"
+      android:textSize = "15sp" />
+
+        <TextView
+            android:id = "@+id/textView18"
+            android:layout_width = "match_parent"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_height = "wrap_content"
+            android:gravity="center"
+            android:text = "اضف الصور" /><LinearLayout
+            android:layout_width = "match_parent"
+            android:layout_height = "match_parent"
+            android:background="@drawable/noty"
+            android:orientation = "vertical">
+            <ImageView
+                android:id = "@+id/imageView1"
+                android:layout_width = "wrap_content"
+                android:layout_gravity="center"
+                android:layout_height = "match_parent"
+                tools:srcCompat = "@drawable/ic_photo24" />
+        <View
+            android:id = "@+id/view30"
+            android:layout_width = "match_parent"
+            android:layout_height = "10dp" /><ImageView
+            android:id = "@+id/imageView2"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            tools:srcCompat = "@drawable/ic_photo24" />
+        <View
+            android:id = "@+id/view31"
+            android:layout_width = "match_parent"
+            android:layout_height = "10dp" /><ImageView
+            android:id = "@+id/imageView3"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"
+            android:layout_gravity = "right"
+            tools:srcCompat = "@drawable/ic_photo24" />
+    </LinearLayout>
+
+
+        <View
+            android:id = "@+id/view25"
+            android:layout_width = "match_parent"
+            android:layout_height = "35dp" /><EditText
+      android:id = "@+id/hotel_country"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:textColorHint="#000"
+      android:gravity = "center"
+      android:hint = "البلد"
+      android:textColor = "#000"
+      android:textSize = "15sp" />
+
+
+
+     <View
+         android:id = "@+id/view26"
+         android:layout_width = "match_parent"
+         android:layout_height = "35dp" /><EditText
+      android:id = "@+id/hotel_city"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:textColorHint="#000"
+      android:gravity = "center"
+      android:hint = "المدينة"
+      android:textColor = "#000"
+      android:textSize = "15sp" />
+
+
+       <View
+           android:id = "@+id/view27"
+           android:layout_width = "match_parent"
+           android:layout_height = "35dp" /><EditText
+      android:id = "@+id/hotel_manger"
+      android:layout_width = "match_parent"
+      android:textColorHint="#000"
+      android:layout_height = "wrap_content"
+      android:gravity = "center"
+      android:hint = "اسم صاحب الفندق"
+      android:textColor = "#000"
+      android:textSize = "15sp" />
+
+
+
+       <View
+           android:id = "@+id/view33"
+           android:layout_width = "match_parent"
+           android:layout_height = "35dp" /><EditText
+      android:id = "@+id/hotel_phone"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:gravity = "center"
+      android:hint = "رقم الهاتف"
+      android:textColor = "#000"
+      android:textColorHint = "#000"
+      android:textSize = "15sp" />
+
+    <View
+        android:id = "@+id/view32"
+        android:layout_width = "match_parent"
+        android:layout_height = "35dp" /><EditText
+        android:id = "@+id/email_hotel"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+      android:gravity="center"
+      android:textColor = "#000"
+        android:textColorHint="#000"
+        android:hint="البريد الالكتروني"
+        android:inputType = "textEmailAddress" />
+      <View
+          android:id = "@+id/view29"
+          android:layout_width = "match_parent"
+          android:layout_height = "35dp" /><Button
+          android:id = "@+id/button4"
+          android:layout_width = "match_parent"
+          android:layout_height = "wrap_content"
+          android:textSize="20sp"
+          android:onClick = "location"
+          android:text = "الموقع" /><TextView
+      android:id = "@+id/text_loc"
+      android:layout_width = "match_parent"
+      android:layout_height = "wrap_content"
+      android:gravity = "center"
+      android:textColor = "#000"
+      android:textSize = "15sp" />
+      <Button
+          android:id = "@+id/button3"
+          android:layout_width = "match_parent"
+          android:layout_height = "wrap_content"
+          android:onClick = "next"
+          android:textSize="20sp"
+          android:text = "التالي" />
+  </LinearLayout>
+
+
+
+</ScrollView>

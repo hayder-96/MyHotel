@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width = "match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/noty"
+    android:layout_margin="7dp"
+    android:layout_height = "wrap_content">
+
+<LinearLayout
+android:layout_width = "match_parent"
+android:layout_height = "wrap_content"
+    android:layout_margin = "10dp"
+
+android:orientation = "vertical">
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:orientation = "horizontal">
+        <TextView
+            android:id = "@+id/textView21"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:text = "اسم الشخص:"
+            android:textColor = "#000"
+            android:textSize = "15sp" /><TextView
+        android:id = "@+id/name_req"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:gravity = "center"
+        android:text = "TextView"
+        android:textColor = "#000"
+        android:textSize = "15sp" /></LinearLayout>
+
+     <View
+         android:layout_width = "match_parent"
+         android:layout_height = "35dp"
+         android:background = "#fff" />
+
+
+
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:orientation = "horizontal">
+        <TextView
+            android:id = "@+id/textView22"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:text = "رقم الهاتف:"
+            android:textColor = "#000"
+            android:textSize = "15sp" /><TextView
+        android:id = "@+id/phone_req"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:gravity = "center"
+        android:text = "TextView"
+        android:textColor = "#000"
+        android:textSize = "15sp" /></LinearLayout>
+     <View
+         android:layout_width = "match_parent"
+         android:layout_height = "35dp"
+         android:background = "#fff" />
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:orientation = "horizontal">
+        <TextView
+            android:id = "@+id/textView23"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:text = "البريد الالكتروني:"
+            android:textColor = "#000"
+            android:textSize = "15sp" /><TextView
+        android:id = "@+id/email_req"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:gravity = "center"
+        android:text = "TextView"
+        android:textColor = "#000"
+        android:textSize = "15sp" /></LinearLayout>
+     <View
+         android:layout_width = "match_parent"
+         android:layout_height = "35dp"
+         android:background = "#fff" />
+
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:orientation = "horizontal">
+        <TextView
+            android:id = "@+id/textView24"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:text = "البلد:"
+            android:textColor = "#000"
+            android:textSize = "15sp" /><TextView
+        android:id = "@+id/country_req"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:gravity = "center"
+        android:text = "TextView"
+        android:textColor = "#000"
+        android:textSize = "15sp" /></LinearLayout>
+
+     <View
+         android:layout_width = "match_parent"
+         android:layout_height = "35dp"
+         android:background = "#fff" />
+
+
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:orientation = "horizontal">
+        <TextView
+            android:id = "@+id/textView25"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:text = "نوع الرحلة:"
+            android:textColor = "#000"
+            android:textSize = "15sp" /><TextView
+        android:id = "@+id/typetrip_req"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:gravity = "center"
+        android:text = "TextView"
+        android:textColor = "#000"
+        android:textSize = "15sp" /></LinearLayout>
+
+     <View
+         android:layout_width = "match_parent"
+         android:layout_height = "35dp"
+         android:background = "#fff" />
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:orientation = "horizontal">
+        <TextView
+            android:id = "@+id/textView26"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:text = "اسم الغرفة:"
+            android:textColor = "#000"
+            android:textSize = "15sp" /><TextView
+        android:id = "@+id/nameroom_req"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:gravity = "center"
+        android:text = "TextView"
+        android:textColor = "#000"
+        android:textSize = "15sp" /></LinearLayout>
+
+
+     <View
+         android:layout_width = "match_parent"
+         android:layout_height = "35dp"
+         android:background = "#fff" />
+
+
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:orientation = "horizontal">
+        <TextView
+            android:id = "@+id/textView27"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:text = "نوع الغرفة:"
+            android:textColor = "#000"
+            android:textSize = "15sp" /><TextView
+        android:id = "@+id/typeroom_req"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:gravity = "center"
+        android:text = "TextView"
+        android:textColor = "#000"
+        android:textSize = "15sp" /></LinearLayout>
+
+     <View
+         android:layout_width = "match_parent"
+         android:layout_height = "35dp"
+         android:background = "#fff" />
+
+
+
+
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:orientation = "horizontal">
+        <TextView
+            android:id = "@+id/textView47"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:text = "سعر الغرفة:"
+            android:textColor = "#000"
+            android:textSize = "15sp" /><TextView
+        android:id = "@+id/priceroom_req"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:gravity = "center"
+        android:text = "TextView"
+        android:textColor = "#000"
+        android:textSize = "15sp" /></LinearLayout>
+
+
+     <View
+         android:layout_width = "match_parent"
+         android:layout_height = "35dp"
+         android:background = "#fff" />
+
+
+
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:orientation = "horizontal">
+        <TextView
+            android:id = "@+id/textView46"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:text = "نوع السرير:"
+            android:textColor = "#000"
+            android:textSize = "15sp" /><TextView
+        android:id = "@+id/typebed_req"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:gravity = "center"
+        android:text = "TextView"
+        android:textColor = "#000"
+        android:textSize = "15sp" /></LinearLayout>
+
+
+     <View
+         android:layout_width = "match_parent"
+         android:layout_height = "35dp"
+         android:background = "#fff" />
+
+
+
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:orientation = "horizontal">
+        <TextView
+            android:id = "@+id/textView44"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:text = "اسم السرير:"
+            android:textColor = "#000"
+            android:textSize = "15sp" /><TextView
+        android:id = "@+id/namebed_req"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:gravity = "center"
+        android:text = "TextView"
+        android:textColor = "#000"
+        android:textSize = "15sp" /></LinearLayout>
+
+     <View
+         android:layout_width = "match_parent"
+         android:layout_height = "35dp"
+         android:background = "#fff" />
+
+
+
+
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:orientation = "horizontal">
+        <TextView
+            android:id = "@+id/textView43"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:text = "عدد الضيوف:"
+            android:textColor = "#000"
+            android:textSize = "15sp" /><TextView
+        android:id = "@+id/numguest_req"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:gravity = "center"
+        android:text = "TextView"
+        android:textColor = "#000"
+        android:textSize = "15sp" /></LinearLayout>
+
+
+     <View
+         android:layout_width = "match_parent"
+         android:layout_height = "35dp"
+         android:background = "#fff" />
+
+
+
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:orientation = "horizontal">
+        <TextView
+            android:id = "@+id/textView29"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:text = "وقت الذهاب والعودة:"
+            android:textColor = "#000"
+            android:textSize = "15sp" /><TextView
+        android:id = "@+id/access_req"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:gravity = "center"
+        android:text = "TextView"
+        android:textColor = "#000"
+        android:textSize = "15sp" /></LinearLayout>
+     <View
+         android:layout_width = "match_parent"
+         android:layout_height = "35dp"
+         android:background = "#fff" />
+
+
+
+
+    <LinearLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:orientation = "horizontal">
+        <TextView
+            android:id = "@+id/textView28"
+            android:layout_width = "wrap_content"
+            android:layout_height = "wrap_content"
+            android:text = "وقت الذهاب والمغادرة:"
+            android:textColor = "#000"
+            android:textSize = "15sp" /><TextView
+        android:id = "@+id/leaving_req"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:gravity = "center"
+        android:text = "TextView"
+        android:textColor = "#000"
+        android:textSize = "15sp" /></LinearLayout>
+
+
+     <View
+         android:layout_width = "match_parent"
+         android:layout_height = "35dp"
+         android:background = "#fff" />
+
+
+
+
+    <Button
+        android:id = "@+id/but_yes"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text = "قبول" />
+
+
+     <View
+         android:layout_width = "match_parent"
+         android:layout_height = "35dp"
+         android:background = "#fff" />
+
+
+
+    <Button
+        android:id = "@+id/but_no"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:text = "رفض" />
+
+</LinearLayout>
+    <View
+        android:id = "@+id/view12"
+        android:layout_width = "match_parent"
+        android:layout_height = "35dp"
+        android:background = "#000" />
+</LinearLayout>

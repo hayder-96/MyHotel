@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:background="@drawable/rooms"
+    android:orientation="vertical"
+    tools:context = ".User.AcceptUser_Activity">
+
+<LinearLayout
+android:layout_width = "match_parent"
+android:layout_height = "wrap_content"
+android:orientation = "vertical"><View
+android:id = "@+id/view21"
+android:layout_width = "match_parent"
+
+android:layout_height = "50dp" /><EditText
+android:id = "@+id/editText_name"
+android:layout_width = "match_parent"
+android:layout_height = "wrap_content"
+android:gravity = "center"
+android:hint = "ادخل الاسم"
+android:textColor = "#fff"
+android:textColorHint = "#000" /><View
+android:id = "@+id/view17"
+android:layout_width = "match_parent"
+android:layout_height = "50dp" /><EditText
+android:id = "@+id/edit_phone"
+android:layout_width = "match_parent"
+android:layout_height = "wrap_content"
+android:gravity = "center"
+android:hint = "رقم الهاتف"
+android:inputType = "number"
+android:textColor = "#fff"
+android:textColorHint = "#000" /><View
+android:id = "@+id/view18"
+android:layout_width = "match_parent"
+android:layout_height = "50dp" /><EditText
+android:id = "@+id/editText_email"
+android:layout_width = "match_parent"
+android:layout_height = "wrap_content"
+android:gravity = "center"
+android:hint = "البريد الالكتروني"
+android:inputType = "textEmailAddress"
+android:textColor = "#fff"
+android:textColorHint = "#000" /><View
+android:id = "@+id/view19"
+android:layout_width = "match_parent"
+android:layout_height = "50dp" /><EditText
+android:id = "@+id/editText_country"
+android:layout_width = "match_parent"
+android:layout_height = "wrap_content"
+android:gravity = "center"
+android:hint = "البلد"
+android:textColor = "#fff"
+android:textColorHint = "#000" /><LinearLayout
+android:layout_width = "match_parent"
+android:layout_height = "wrap_content"
+android:orientation = "horizontal">
+        <Button
+
+            android:layout_width = "0dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:onClick = "history1"
+            android:text = "تاريخ المجيء"
+            android:textSize = "20sp"
+            android:textStyle = "bold" /><Button
+
+android:layout_width = "0dp"
+android:layout_height = "wrap_content"
+android:layout_weight = "1"
+android:onClick = "history2"
+android:text = "تاريخ المغادرة"
+android:textSize = "20sp"
+android:textStyle = "bold" /></LinearLayout><LinearLayout
+android:layout_width = "match_parent"
+android:layout_height = "wrap_content"
+android:orientation = "horizontal">
+        <TextView
+            android:id = "@+id/but_comming"
+            android:layout_width = "0dp"
+            android:layout_height = "wrap_content"
+            android:layout_weight = "1"
+            android:textColor = "#fff"
+            android:textSize = "15sp" /><TextView
+android:id = "@+id/but_departure"
+android:layout_width = "0dp"
+android:layout_height = "wrap_content"
+android:layout_weight = "1"
+android:textColor = "#fff"
+android:textSize = "15sp" /></LinearLayout><View
+android:id = "@+id/view20"
+android:layout_width = "match_parent"
+android:layout_height = "50dp" /><TextView
+android:id = "@+id/textView12"
+android:layout_width = "match_parent"
+android:layout_height = "wrap_content"
+android:gravity = "center"
+android:text = "نوع الرحلة"
+android:textColor = "#000"
+android:textSize = "20sp"
+android:textStyle = "bold" /><RadioGroup
+android:layout_width = "match_parent"
+android:layout_height = "wrap_content">
+<RadioButton
+  android:id = "@+id/radioButton11"
+  android:layout_width = "match_parent"
+  android:layout_height = "wrap_content"
+  android:onClick = "radiojob"
+  android:text = "عمل"
+  android:textColor = "#000"
+  android:textSize = "20sp"
+  android:textStyle = "bold" /><RadioButton
+android:id = "@+id/radioButton12"
+android:layout_width = "match_parent"
+android:layout_height = "wrap_content"
+android:onClick = "radiotourism"
+android:text = "سياحة"
+android:textColor = "#000"
+android:textSize = "20sp"
+android:textStyle = "bold" /></RadioGroup><View
+android:id = "@+id/view16"
+android:layout_width = "match_parent"
+android:layout_height = "20dp" /><Button
+android:id = "@+id/button13"
+android:layout_width = "match_parent"
+android:layout_height = "wrap_content"
+android:onClick = "insert"
+android:text = "تم"
+android:textSize = "20sp"
+android:textStyle = "bold" /></LinearLayout>
+
+  </ScrollView>

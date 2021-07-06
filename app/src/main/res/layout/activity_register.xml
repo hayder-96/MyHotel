@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:orientation = "vertical"
+    tools:context = ".RegisterAndLogin.RegisterActivity">
+
+  <View
+      android:id = "@+id/view43"
+      android:layout_width = "match_parent"
+      android:layout_height = "10dp" /><EditText
+      android:id = "@+id/edit_name"
+      android:layout_width = "match_parent"
+    android:hint="الاسم"
+    android:gravity="center"
+      android:layout_height = "wrap_content"
+      /><View
+    android:id = "@+id/view44"
+    android:layout_width = "match_parent"
+    android:layout_height = "10dp" /><EditText
+    android:id = "@+id/edit_email"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:hint="البريد الالكتروني"
+    android:gravity="center"
+    android:inputType = "textEmailAddress"
+    /><View
+    android:id = "@+id/view45"
+    android:layout_width = "match_parent"
+    android:layout_height = "10dp" /><EditText
+    android:id = "@+id/edit_Password"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:hint="الرمز السري"
+    android:gravity="center"
+    android:inputType = "textPassword" />
+  <View
+      android:id = "@+id/view46"
+      android:layout_width = "match_parent"
+      android:layout_height = "25dp" /><Button
+    android:id = "@+id/but_reg"
+      android:onClick="Register"
+    android:layout_width = "match_parent"
+    android:layout_height = "wrap_content"
+    android:text = "دخول" /></LinearLayout>

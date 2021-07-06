@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <item android:id="@+id/viewa"
+        android:title="مشاهدة التقييمات"
+        app:showAsAction="always"/>
+
+
+    <item android:id="@+id/me_det"
+        android:icon="@drawable/ic_details"
+        android:title="التفاصيل"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/filter_price"
+        android:title="حسب السعر"/>
+
+
+
+
+
+
+
+
+</menu>
